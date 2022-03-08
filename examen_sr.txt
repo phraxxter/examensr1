@@ -1,4 +1,15 @@
-DHCP 3 tipos
+==================================================================================
+DHCP:
+-Es un  protocolo que ofrece direcciones ip de un rango automaticamente
+ Existen 3 tipos:
+ asignacion automatica, el host tendra una direccion ip permanente.
+ asignacion dinamica, la direccion permanece durante un tiempo limitado.
+ asignacion manual, se configura el servidor manualmente
+
+DNS:
+-Es un servicio de sistema de nombres de dominio, que con la base de datos de 
+ nombres y ip´s nos facilita la conexion con las paginas web ya que 
+ deberemos de recordar un nombre en vez de una direccion de ip.
 ----------------------------------------------------------------------------------
 FTP:
 -Es el protocolo de transferenca de archivos, usado en la capa de aplicacion
@@ -15,13 +26,19 @@ Modo activo pasivo:
 Servidor web:
 -Es una maquina que proporciona servicios en la red como por ejemplo 
  paginas web
+
+Para proporcionar estos servicios tenemos:
+
+Linux - apache2
+Windows - IIS
 ----------------------------------------------------------------------------------
 Servicio remoto:
 -Es en servicio que permite conectarse de un ordenador a otro 
 existen:
 TELNET:
--es un protocolo de telecomunicacion en red que usa conexion TCP en el puerto 23, es un protocolo poco seguro por que no
- encripta las trazas.la interfaz es en modo texto
+-es un protocolo de telecomunicacion en red que usa conexion TCP en el puerto 23,
+ es un protocolo poco seguro por que no encripta las trazas.la interfaz 
+ es en modo texto
 
 SSH:
 -Es un protocolo para la interpretacion de ordenes que usa el puerto 22 TCP,
@@ -29,11 +46,46 @@ SSH:
  y lo mas usado actualmente
 
 PuTTY:
--es un programa libre para windows con el cual podemos hacer conexiones de 
-los protocolos antes mencionados 
+-Es un programa libre para windows con el cual podemos hacer conexiones de 
+ los protocolos antes mencionados 
 ==================================================================================
-redes inalambricas
+Redes inalambricas:
+-Es un conjunto de equipos que se conectan entre si sin necesidad de usar 
+ una conexion fisica, por ejemplo a traves de ondasd electromagneticas
 
-preguntas de los apuntes
+Estandar wifi-IEEE 802.11
 
-modos de conexion(ver gsm gprs umts)
+Modos de conexion
+WPAN-red de area personal inalambrica(bluetooth)
+WLAN-red de area local inalambrica(wifi)
+WMAN-red de area metropolitana inalambrica(wimax)
+WWAN-red de area extensa inalambrica
+
+Dentro de WWAN nos encontramos con:
+GSM-Sistema Global de Comunicacion de Moviles
+GPRS-Servicio General de Paquetes de Radio
+UMTS-Sistema Universal de Comunicacion de Moviles
+
+==================================================================================
+PREGUNTAS PDF
+cual de las siguientes opciones seria un inconveniente en las redes inalambricas?
+-la seguridad es un punto debil en este tipo de redes
+
+busca entre estas cuatro caracteristicas, aquella que pertenezca a bluetooth
+-su rango optimo de transmision es de 10 metros de distancia
+
+que dispositivo utilizarias para conectar inalambricamente dos redes
+LAN cableadas?
+-Bridge o puente
+
+que siglas corresponden al nombre de la red o identificador 
+el conjunto de servicios?
+-SSID
+
+cuales de estos dispositivos se utiliza para permitir comunicacion via 
+wireless?
+-Punto de acceso
+
+busca entre las siguientes afirmaciones, aquella que sea correcta
+-El metodo mas seguro de proteger una red wifi es con encriptacion WPA2
+==================================================================================
