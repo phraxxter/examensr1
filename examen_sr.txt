@@ -1,0 +1,39 @@
+DHCP 3 tipos
+----------------------------------------------------------------------------------
+FTP:
+-Es el protocolo de transferenca de archivos, usado en la capa de aplicacion
+ en los puertos 20 y 21 en el que el puerto 20 es para la transferencia de datos
+ y el 21 es para establecer un control de la comunicacion.
+
+Modo activo pasivo:
+-En el modo activo, las conexiones son abiertas por aquel que envía los datos,
+ puede ser el servidor y el cliente, puerto mayor de 1024
+
+ En el modo pasivo las conexiones son siempre abiertas por el cliente,
+ puerto mayor de 1023
+----------------------------------------------------------------------------------
+Servidor web:
+-Es una maquina que proporciona servicios en la red como por ejemplo 
+ paginas web
+----------------------------------------------------------------------------------
+Servicio remoto:
+-Es en servicio que permite conectarse de un ordenador a otro 
+existen:
+TELNET:
+-es un protocolo de telecomunicacion en red que usa conexion TCP en el puerto 23, es un protocolo poco seguro por que no
+ encripta las trazas.la interfaz es en modo texto
+
+SSH:
+-Es un protocolo para la interpretacion de ordenes que usa el puerto 22 TCP,
+ a diferencia de TELNET este si encripta sus trazas por lo que es mas seguro
+ y lo mas usado actualmente
+
+PuTTY:
+-es un programa libre para windows con el cual podemos hacer conexiones de 
+los protocolos antes mencionados 
+==================================================================================
+redes inalambricas
+
+preguntas de los apuntes
+
+modos de conexion(ver gsm gprs umts)
